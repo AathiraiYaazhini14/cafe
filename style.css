@@ -1,0 +1,121 @@
+body{
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+#header{
+    margin-left: 50%;
+    position: relative;
+    top: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#order{
+    background-color:black;
+    color: aliceblue;
+    width: 100px;
+}
+#coffeebean{
+    margin-top: 10%;
+    float:left;
+    position:  relative;
+    right:100px;
+    
+}
+#pic1{
+    margin-left: 50%;
+    margin-top: 15%;
+    position: relative;
+    right:200px;
+    text-align:left;
+    font-size: larger;
+}
+#header a{
+    margin-right: 50px;
+}
+#logo{
+    float: left;
+    width: 100px;
+}
+#la,#es,#ca{
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px #888888;
+    height:150px;
+    width:150px;
+}
+#coffeebutton{
+    width: 160px;
+    background-color: rgb(252, 241, 228);
+    border-color:rgb(252, 241, 228);
+}
+#center1{
+    position: relative;
+    top: 100px;
+    right:250px;
+    width: 20%;
+    height: 2px;
+    background-color: black;
+}
+#center2{
+    position: relative;
+    top: 90px;
+    bottom: 50px;
+    left: 39%;
+    font-size: larger;
+}
+#center3{
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+    position: relative;
+    top:80px;
+    right: 5px;
+    color: #888888;
+}
+#freecoffee{
+    position: relative;
+    left: 1100px;
+    top:200px;
+}
+#freetext{
+    position: relative;
+    bottom:100px;
+    left: 53%;
+    font-size: larger;
+}
+#freetext p{
+    color: rgb(112, 112, 112);
+    position:relative;
+    right:100px;
+}
+footer{
+    background-color: rgb(69, 42, 22);
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+}
+#call{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+}
+#loc{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+    bottom: 15%;
+}
+footer h3{
+    position: relative;
+    left:41%;
+    bottom: 85px;
+    font-family:Arial, Helvetica, sans-serif;
+}
