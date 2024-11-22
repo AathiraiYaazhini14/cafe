@@ -1,13 +1,12 @@
 body{
     background-color:white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     overflow-x: hidden;
 }
 #header{
     margin-left: 50%;
     position: relative;
     top: 30px;
-    
 }
 a{
     text-decoration: none;
@@ -19,14 +18,16 @@ a{
     width: 100px;
 }
 #coffeebean{
-    margin-top: 10%;
+    margin-top: 15%;
     float:left;
     position:  relative;
     right:100px;
+    width:300px;
+    height:300px;
     
 }
 #pic1{
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 15%;
     position: relative;
     right:200px;
@@ -51,6 +52,11 @@ a{
     width: 160px;
     background-color: rgb(252, 241, 228);
     border-color:rgb(252, 241, 228);
+    border-radius:5px ;
+}
+#center{
+    position: relative;
+    top:50px;
 }
 #center1{
     position: relative;
@@ -64,7 +70,7 @@ a{
     position: relative;
     top: 90px;
     bottom: 50px;
-    left: 39%;
+    left: 8%;
     font-size: larger;
 }
 #center3{
@@ -73,29 +79,30 @@ a{
     font-size:larger;
     position: relative;
     top:80px;
-    right: 5px;
+    right: 250px;px;
     color: #888888;
 }
 #freecoffee{
     position: relative;
     left: 1100px;
     top:200px;
+    width:300px;
 }
 #freetext{
     position: relative;
     bottom:100px;
-    left: 53%;
+    left: 50%;
     font-size: larger;
 }
 #freetext p{
     color: rgb(112, 112, 112);
     position:relative;
-    right:100px;
+    right:78px;
 }
 footer{
     background-color: rgb(69, 42, 22);
-    margin-top: 100px;
-    height: 200px;
+    margin-top: 80px;
+    height: 220px;
     width: 100%;
 }
 #call{
@@ -104,6 +111,7 @@ footer{
     border-radius: 50%;
     position: relative;
     left: 35%;
+    top:10px;
 }
 #loc{
     width:80px;
@@ -113,9 +121,30 @@ footer{
     left: 35%;
     bottom: 15%;
 }
-footer h3{
+#number{
     position: relative;
     left:41%;
-    bottom: 85px;
+    bottom: 60px;
+    color: azure;
     font-family:Arial, Helvetica, sans-serif;
+}
+#address{
+    position: relative;
+    left:41%;
+    bottom: 110px;
+    color: azure;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+#cafe{
+    width:300px;
+    height:400px;
+    position: relative;
+}
+#cafetext{
+    position: relative;
+    left:22%;
+    bottom: 300px;
+    text-align: justify;
+    font-size: larger;
+    font-family: ;
 }
