@@ -148,3 +148,21 @@ footer{
     font-size: larger;
     font-family: ;
 }
+@media screen and (max-width: 500px){
+    #coffeebean{
+        margin-left: 100px;
+        width:max-content;
+        height:max-content;
+    }
+    #pic1{
+        margin-left: 800px;
+        margin-top: 300px;
+        font-size:60px; 
+    }
+    #coffeebutton{
+        height:150px;
+        width:150px;
+        margin-left: 200px;
+    }
+
+} 
